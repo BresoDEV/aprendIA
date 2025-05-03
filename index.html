@@ -1,6 +1,9 @@
 <script src="js/js.js"></script>
 
 <script>
+  if (!localStorage.getItem('intro')) {
+    window.location.href = 'logo.html'
+  }
   if (!localStorage.getItem('flashcards_nome')) {
     window.location.href = 'login.html'
   }

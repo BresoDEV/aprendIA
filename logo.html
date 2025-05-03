@@ -1,0 +1,97 @@
+
+
+<html lang="pt-br"><head><script src="js/js.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-box {
+            background: #1a1a1a;
+            padding: 5%;
+            border-radius: 12px;
+            box-shadow:
+                0 0 5px #0ff,
+                0 0 10px #0ff,
+                0 0 20px #0ff;
+            width: 70%;
+            max-width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            background: #0d0d0d;
+            border: 1px solid #0ff;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+        }
+
+        button {
+            width: 90%;
+            padding: 12px;
+            background-color: #0ff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #000;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #00e6e6;
+        }
+
+        p {
+            color: red;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="meuCanvas" class="canvass" width="1592" height="748" style="background-color:#000;position: fixed; z-index: -1;"></canvas>
+    
+    <div class="login-box" style="background-color:#000">
+        <img src="Logo.jpeg" style="width:100%">
+    </div>
+
+<script>
+   
+   
+   localStorage.setItem('intro','1');
+   setTimeout(()=>{
+	window.location.href = 'index.html'
+   },4000)
+
+
+
+
+
+
+
+</script>
+
+<script src="js/particulas.js"></script>
+</body></html>

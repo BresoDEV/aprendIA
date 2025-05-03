@@ -88,6 +88,10 @@
 </body>
 <script>
 
+ if (!localStorage.getItem('intro')) {
+    window.location.href = 'logo.html'
+  }
+
   const Usuario = document.getElementById('Usuario')
   const Senha = document.getElementById('Senha')
   const Entrar = document.getElementById('Entrar')
